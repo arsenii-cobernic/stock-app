@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.chart_placeholder {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+}
+
+.chart_container {
+    width: 100%;
+    height: 100%;
+}
+
+.chart_controls { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
