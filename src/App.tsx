@@ -10,7 +10,7 @@ export interface RequestParameters {
 }
 
 function App() {
-  const [chartData, setChartData] = useState("");
+  const [chartData, setChartData] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
   const [requestParameters, setRequestParameters] = useState<RequestParameters>(

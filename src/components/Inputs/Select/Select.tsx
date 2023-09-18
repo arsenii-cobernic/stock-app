@@ -15,7 +15,7 @@ interface Props {
 const Select = ({ title, id, options, onChange }: Props) => {
   return (
     <div className={styles.container}>
-      <label className={styles.label} htmlFor="period">
+      <label className={styles.label} htmlFor={id}>
         {title}:
       </label>
       <select
